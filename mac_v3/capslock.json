@@ -4956,7 +4956,7 @@
               ]
             }
           ]
-        },,
+        },
         {
           "description": "command + m = delete word ahead",
           "type": "basic",
