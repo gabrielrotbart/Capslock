@@ -4798,6 +4798,26 @@
           ]
         },
         {
+          "description": "f = firefox",
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a firefox"
+            }
+          ]
+        },
+        {
           "description": "option + e = mail",
           "type": "basic",
           "from": {
@@ -4814,12 +4834,12 @@
           },
           "to": [
             {
-              "shell_command": "open -a mail"
+              "shell_command": "open -a Postbox"
             }
           ]
         },
         {
-          "description": "e = safari",
+          "description": "e = finder",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4834,7 +4854,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Safari"
+              "shell_command": "open -a finder"
             }
           ]
         },
@@ -5025,75 +5045,12 @@
           ]
         },
         {
-          "description": "command + f = Dash",
+          "description": "c = Chrome",
           "type": "basic",
           "from": {
-            "key_code": "f",
+            "key_code": "c",
             "modifiers": {
               "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a Dash"
-            }
-          ]
-        },
-        {
-          "description": "option + f = Dictionary",
-          "type": "basic",
-          "from": {
-            "key_code": "f",
-            "modifiers": {
-              "mandatory": [
-                "left_option",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a Dictionary"
-            }
-          ]
-        },
-        {
-          "description": "f = Alfred 4",
-          "type": "basic",
-          "from": {
-            "key_code": "f",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Alfred 4'"
-            }
-          ]
-        },
-        {
-          "description": "command + g = Chrome",
-          "type": "basic",
-          "from": {
-            "key_code": "g",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
                 "right_command",
                 "right_control",
                 "right_shift",
