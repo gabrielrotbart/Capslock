@@ -12,7 +12,6 @@
 
 *Transform <kbd>⇪</kbd>CapsLock into a powerful **modifier** **<kbd>✱</kbd> Hyper** that miraculously increases your work productivity!*
 
-![control-plane-0](docs/img/keyboard.jpg)
 
 > [Control Plane](#control-planes) 0 Layout (There are 15 more!)
 
@@ -63,7 +62,7 @@ It only takes two steps to enable Capslock on your Mac: Download & Enable
 
 2. [Enable](karabiner://karabiner/assets/complex_modifications/import?url=https://ke-complex-modifications.pqrs.org/json/caps_lock_enhancement.json)
 
-   Open this [link](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac_v3/capslock.json) with Safari. It will launch Karabiner-Elements and load configuration.
+   Open this [link](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/gabrielrotbart/Capslock/master/mac_v3/capslock.json) with Safari. It will launch Karabiner-Elements and load configuration.
 
    `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac_v3/capslock.json`
 
@@ -204,9 +203,7 @@ Capslock works on **ANSI** keyboards and similar layouts. It literally remaps ev
 |    <kbd>E</kbd>    |       Safari       |  Finder   |    Mail     |
 |    <kbd>R</kbd>    |       iTerm2       |  Preview  |  Terminal   |
 |    <kbd>T</kbd>    | Visual Studio Code |  Typora   |    Note     |
-|    <kbd>Y</kbd>    |        Siri        | Karabiner | Amphetamine |
-|    <kbd>F</kbd>    |      Alfred 4      |   Dash    | Dictionary  |
-|    <kbd>G</kbd>    |   Intellij IDEA    |  Chrome   |  Calender   |
+|    <kbd>C</kbd>    |  Chrome    |     |  Calender   |
 
 
 ### Terminal Control
